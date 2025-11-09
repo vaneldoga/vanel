@@ -1,0 +1,98 @@
+body {
+   background-color: #909090;
+}
+
+p {
+   color: #dcd7ba;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  height: 100vh;  
+
+}
+
+.center {
+   border: solid 1px black;
+   background-color: #f0f0f0;
+   box-shadow: 9px 9px 0px #404040;
+   max-width: 600px;
+   box-sizing: border-box;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+}
+
+.hyein {
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 60px;
+
+   }
+
+
+button {
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #fcfcfc;
+   border: solid 1px #000000;
+   
+}
+
+.links {
+   display: flex;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 60px;
+
+}
+
+.mkdocs {
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.mkdocs_link {
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+}
+
+.button_l {
+   text-decoration: none;
+   font-size: 15px;
+   color: #000000;
+}
+
+button:hover {
+   box-shadow: 2px 2px #606060;
+}
+
+a.mkdoc_l:link {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #303030;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #909090;
+  background-color: transparent;
+  text-decoration: underline;
+}
