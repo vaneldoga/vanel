@@ -203,7 +203,8 @@ th {
   background-color: #f0f0f0;
   margin-left: 20px;
   margin-right: 20px;
-  box-shadow: 6px 6px 0px 0px #000000;
+  box-shadow: 9px 9px 0px 0px #404040;
+  border-radius: 20px;
 
 }
 
@@ -307,4 +308,11 @@ label.md-nav__link::before {
 
 .md-nav--primary .md-nav__title[for=__drawer] {
     text-align: center;
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    background-color: #f0f0f0;
+    color: black;
+  }
 }
