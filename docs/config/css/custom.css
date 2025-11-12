@@ -316,9 +316,3 @@ label.md-nav__link::before {
     color: black;
   }
 }
-
-@media screen and (max-width: 76.2344em) {
-  .md-nav--primary .md-nav__title ~ .md-nav__list {
-    background-color: #fcfcfc;
-  }
-}
