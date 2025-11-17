@@ -4,9 +4,12 @@ extra_css:
   - config/css/custom.css
 
 theme:
+  features:
+    - navigation.path
   name: material 
   logo: config/images/logo.png
-  
+  favicon: config/images/logo.png
+     
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
